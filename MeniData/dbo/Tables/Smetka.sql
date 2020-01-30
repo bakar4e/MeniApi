@@ -1,0 +1,9 @@
+﻿CREATE TABLE [dbo].[Smetka]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [KelnerID] NVARCHAR(128) NOT NULL, 
+    [DaumNaPoracka] DATETIME2 NOT NULL, 
+    [BezDDV] MONEY NOT NULL, 
+    [DDV] MONEY NOT NULL, 
+    [Total] MONEY NOT NULL
+)

@@ -1,0 +1,9 @@
+﻿CREATE TABLE [dbo].[Poracka]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [SmetkaID ] INT NOT NULL, 
+    [ArtiklID] INT NOT NULL, 
+    [Kolicina] INT NOT NULL DEFAULT 1, 
+    [Cena] MONEY NOT NULL, 
+    [DDV] MONEY NOT NULL DEFAULT 18
+)
